@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="manaproject.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="body-container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="d-flex flex-row justify-content-start">
+                <nav class="navbar navbar-md navbar-dark color sticky-top ">
+                    <div class="container ">
+                        <a class="navbar-brand" href="manaproject.html">
+                          <img src="https://www.logoinspirations.co/wp-content/uploads/2018/11/g-logo.jpg" class="food-munch-logo" /></a>
+                          <div id="list" class="total">
+                                       <div class="navbar-nav ml-auto">
+                                        <ul class="navbar-nav">
+                                            <li class="navbar-item">
+                                              <a href="manaproject.html#wcuSection" class="nav-link active section" id="navItem1">
+                                    Why Groceriara?
+                              </a></li>
+                              <li class="navbar-item">
+                                 <a  href="manaproject.html#exploreMenuSection" class="nav-link section" id="navItem2">Explore Products</a>
+                             </li>
+                             <li class="navbar-item">
+                              <a class="nav-link section" href="manaproject.html#followUsSection" id="navItem4">Follow Us</a>
+                          </li>
+                          <li class="navbar-item">
+                             <a  href="manaproject.html#donatesection" class="nav-link section" id="navItem3">DONATE</a>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+    </div>
+    </nav>
+    </div>
+<div class="container bg-success">
+<div class="row">
+<div class="col-md-5">
+    <div class="d-flex flex-row justify-content-center ">
+        <form class=" pd-4  mt-5 " action="project.php" method="POST" enctype="multipart/form.data">
+            <div class="form-floating mb-3 ">
+                <input type="text" class="form-control" name="name" id="name" placeholder="please enter your name">
+                    <label class="form-label">your name</label>
+            </div>
+            <div class="form-floating mb-3 ">
+                <input type="number" class="form-control " name="nbr" id="nbr" placeholder="enter your number">
+                    <label class="form-label">Number</label>
+            </div>
+            <div class="form-floating mb-3 ">
+                 <input type="text" class="form-control " name="district" id="district"placeholder="enter your district">
+                 <label class="form-label">District</label>
+            </div>
+            <button type="submit" class="btn btn-success">SUBMIT</button>
+        </div>
+    </div>
+        <div class="col-md-5">
+
+            <div class="form-floating mt-5 ">
+                <input type="text" class="form-control" name="mandal" id="mandal" placeholder="enter your mandal">
+                <label class="form-label">Mandal</label>
+            </div>
+            <div class="form-floating mb-3 ">
+                 <input type="number" class="form-control" name="dno" id="dno" placeholder="enter your D/No">
+                     <label class="form-label">D/no</label>
+            </div>
+            <div class="form-floating mb-3 ">
+                <input type="text" class="form-control" name="lmark" id="lmark" placeholder="enter your lmark">
+                    <label class="form-label">Land mark</label>
+            </div>
+            <div class="form-floating mb-3 ">
+                <input type="number" class="form-control" name="pin" id="pin" placeholder="enter your Pincode">
+                <label class="form-label">Pincode</label>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+</body>
+</html>
